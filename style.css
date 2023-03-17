@@ -1,0 +1,45 @@
+body {
+    margin: 30px;
+}
+
+.text-center {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+
+}
+
+/* img:hover {
+    width: 200px;
+    height: 200px;
+   
+  
+  
+} */
+a {
+    text-decoration: none;
+    color: deeppink;
+
+}
+
+.table-bordered>:not()>*>* {
+    border-width: 10px 18px;
+}
+
+.form-select {
+    border: 5px solid black;
+    padding: 4px;
+    margin-top: 10px;
+
+}
+
+p {
+    margin: 0px;
+    padding: 3px;
+}
